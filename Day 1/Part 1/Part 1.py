@@ -20,7 +20,7 @@ def calculate_calibration(line):
     return int(f"{first_digit}{last_digit}")
 
 def main():
-    file_path = "Day 1.txt
+    file_path = "Day 1/Part 1/Part 1.txt" 
     search_instance = Map()
     search_instance.file(file_path)
 
