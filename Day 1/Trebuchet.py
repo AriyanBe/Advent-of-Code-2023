@@ -1,4 +1,4 @@
-file = open("inputs.txt", 'r')
+file = open("C:\Documents\Advent-of-Code-2023\Day 1\inputs.txt", 'r')
 input = file.read()
 input_list = input.split('\n')
 
