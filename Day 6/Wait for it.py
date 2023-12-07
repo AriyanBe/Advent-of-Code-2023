@@ -28,8 +28,8 @@ def calculate_total_ways_to_win(race_data):
     return total_ways_to_win, ways_to_win_each_race
 
 
-file_path = '/mnt/data/inputs.txt'
+file_path = 'C:/Documents/Advent-of-Code-2023/Day 6/inputs.txt'
 
 race_data = read_and_parse_file(file_path)
 total_ways_to_win, ways_to_win_each_race = calculate_total_ways_to_win(race_data)
-total_ways_to_win, ways_to_win_each_race
+print(total_ways_to_win, ways_to_win_each_race)
